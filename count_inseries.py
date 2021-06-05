@@ -16,8 +16,5 @@ def get_num_count(numeral, n1, n2):
                     for item in sublist]
                     )
               )
-    n = 0
-    for num in range(len(lst)):
-        n += lst[num].count(numeral_str)
-    return n
+    return len(lst)
     
