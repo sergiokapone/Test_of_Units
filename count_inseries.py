@@ -4,7 +4,7 @@ Created on Sun Nov 20 18:43:08 2016
 
 @author: Sergiokapone
 
-Функція get_num_count розраховує кількість вказаних цифр numeral в числах від n1 до n2 
+Функція get_num_count розраховує кількість вказаних цифр {numeral} в числах від {n1} до {n2} 
 """
 def get_num_count(numeral, n1, n2):
     numeral_str = str(numeral)
@@ -18,4 +18,5 @@ def get_num_count(numeral, n1, n2):
     n = 0
     for num in range(len(lst)):
         n += lst[num].count(numeral_str)
-    return n 
+    return n
+    
