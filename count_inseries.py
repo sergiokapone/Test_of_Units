@@ -12,8 +12,9 @@ def get_num_count(numeral, n1, n2):
                 filter(
                     lambda y: any(char == numeral_str for char in y),
                     [item for sublist in
-                    [str(x) for x in range(n1,n2+1)]
-                    for item in sublist])
+                        [str(x) for x in range(n1,n2+1)]
+                    for item in sublist]
+                    )
               )
     n = 0
     for num in range(len(lst)):
