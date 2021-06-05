@@ -26,5 +26,5 @@ n = 0
 for num in range(len(lst)):
     n += lst[num].count(numeral)
 
-print('Всього циферок', numeral,': ', n, 'штук')
+print(f'Всього циферок {numeral} в межах від {n1} до {n2} міститься {n} штук')
 
