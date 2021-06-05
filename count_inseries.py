@@ -26,5 +26,5 @@ n = 0
 for num in range(len(lst)):
     n += lst[num].count(numeral)
 
-print('Всього циферок', numeral,': ', n, 'штукенцій')
+print('Всього циферок', numeral,': ', n, 'штук')
 
