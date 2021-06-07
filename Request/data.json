@@ -1,0 +1,71 @@
+{
+    "id": "babel-ukrainian",
+    "name": "babel-ukrainian",
+    "aliases": [],
+    "caption": "Babel support for Ukrainian",
+    "authors": [
+        {
+            "id": "braams",
+            "active": false
+        },
+        {
+            "id": "ponomarenko",
+            "active": true
+        }
+    ],
+    "copyright": [
+        {
+            "owner": "Johannes L. Braams",
+            "year": "1989-2012"
+        },
+        {
+            "owner": "Igor A. Kotelnikov",
+            "year": "2011-2017"
+        },
+        {
+            "owner": "Aleksey Novodvorsky",
+            "year": "2000"
+        },
+        {
+            "owner": "Olga Lapko",
+            "year": "1995-2008"
+        },
+        {
+            "owner": "Sergiy \u041c. Ponomarenko",
+            "year": "2017"
+        }
+    ],
+    "license": "lppl1.3c",
+    "version": {
+        "number": "1.4e",
+        "date": "2020-10-14"
+    },
+    "descriptions": [
+        {
+            "language": null,
+            "text": "<p>\n      The package provides support for use of\n      <ref refid=\"babel\">babel</ref>\n      in documents written in Ukrainian.\n      The support is adapted for use under legacy\n      TeX engines as well as XeTeX and LuaTeX.\n    </p>"
+        }
+    ],
+    "documentation": [
+        {
+            "language": null,
+            "details": "Package documentation",
+            "href": "ctan:/macros/latex/contrib/babel-contrib/ukrainian/ukraineb.pdf"
+        },
+        {
+            "language": null,
+            "details": "Readme",
+            "href": "ctan:/macros/latex/contrib/babel-contrib/ukrainian/README.md"
+        }
+    ],
+    "ctan": {
+        "path": "/macros/latex/contrib/babel-contrib/ukrainian",
+        "file": true
+    },
+    "miktex": "babel-ukrainian",
+    "texlive": "babel-ukrainian",
+    "topics": [
+        "multilingual-addon",
+        "ukrainian"
+    ]
+}
