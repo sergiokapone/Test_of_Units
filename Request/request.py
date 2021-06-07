@@ -17,7 +17,7 @@ docurl = response_dict["documentation"][0]["href"]
 # Repalace abstract "ctan:" to specified mirror url
 docurl_mirror = docurl.replace("ctan:", "https://mirrors.ctan.org/")
 
-# Request for mirror url
+# Request from mirror url
 doc_file_url = requests.get(docurl_mirror)
 
 # Save file from mirror url to local folder
