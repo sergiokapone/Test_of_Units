@@ -21,4 +21,4 @@ docurl_mirror = docurl.replace("ctan:", "https://mirrors.ctan.org/")
 doc_file_url = requests.get(docurl_mirror)
 
 # Save file from mirror url to local folder
-open("ukraineb.pdf", "wb").write(doc_file_url.content)
+open("ukraineb.pdf", "w").write(doc_file_url.content)
