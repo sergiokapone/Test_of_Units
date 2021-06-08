@@ -25,9 +25,6 @@ def request_for_questions(user_id, se_site):
     """
     return (requests.get(f"https://api.stackexchange.com/2.2/users/{user_id}/questions?pagesize=100&order=desc&sort=activity&site={se_site}")).json()
 
-# with open("usertex.json", "r") as user_data_file:
-#     user_info_tex = json.load(user_data_file)
-
 
 def create_user_data_files(user_info, type):
     """
