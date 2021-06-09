@@ -52,28 +52,44 @@ def create_user_data_files(user_info, type):
     """
     with open(f"user{type}.csv", "w",
               newline="", encoding="utf-8") as csv_user_data_file:
+
+        # Create object responsible for converting the user’s data to .csv
         writer = csv.writer(csv_user_data_file, delimiter=";")
+
+        # Save head to .csv-file
         writer.writerow(["title", "link", "score"])
+
+        # Write data from user_info.json to .csv
         for i in range(len(user_info['items'])):
             writer.writerow([user_info['items'][i]['title'],
                              user_info['items'][i]['link'],
                              user_info['items'][i]['score']])
 
+    # Cleaning file for LaTeX typesetting
+    clean_csv_for_LaTeX(f"user{type}.csv")
+
+
+def clean_csv_for_LaTeX(file):
+    """
+
+    Cleaning file for LaTeX typesetting
+    """
     # open your csv and read as a text string
-    with open(f"user{type}.csv", 'r') as csv_user_data_file:
+    with open(file, 'r') as csv_user_data_file:
         csv_text = csv_user_data_file.read()
         # substitute
         new_csv_text = re.sub("&#39;", "\'",
                               re.sub('\"', "",
                                      re.sub(r"\\([\w]+)", r"\1", csv_text)))
-
-    # open file and save
-    with open(f"user{type}.csv", "w") as csv_user_data_file:
+        # open file and save
+    with open(file, "w") as csv_user_data_file:
         csv_user_data_file.write(new_csv_text)
 
 
-user_id_data = {66024: 'tex', 690: 'physics'}
-for user_id in user_id_data:
-    create_user_data_files(request_for_questions(user_id,
-                                                 user_id_data[user_id]),
-                           user_id_data[user_id])
+if __name__ == "__main__":
+    user_id_data = {66024: 'tex', 690: 'physics'}
+    for user_id in user_id_data:
+        create_user_data_files(
+            request_for_questions(user_id, user_id_data[user_id]),
+            user_id_data[user_id]
+            )
