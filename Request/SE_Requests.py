@@ -1,8 +1,6 @@
 import requests
 import csv
-
-# user_info_physics = (requests.get("https://api.stackexchange.com/2.2/users/690/questions?pagesize=100&order=desc&sort=activity&site=physics")).json()
-#user_info_tex = (requests.get("https://api.stackexchange.com/2.2/users/66024/questions?pagesize=100&order=desc&sort=activity&site=tex")).json()
+import re
 
 
 def request_for_questions(user_id, se_site):
@@ -52,16 +50,30 @@ def create_user_data_files(user_info, type):
     -------
     .csv-file with user questions (title, link and score)
     """
-    csv_user_data_file = open(f"user{type}.csv", "w",
-                              newline="", encoding="utf-8")
-    writer = csv.writer(csv_user_data_file, delimiter=";")
-    writer.writerow(["title", "link", "score"])
-    for i in range(len(user_info['items'])):
-        writer.writerow([user_info['items'][i]['title'],
-                         user_info['items'][i]['link'],
-                         user_info['items'][i]['score']])
-    csv_user_data_file.close()
+    with open(f"user{type}.csv", "w",
+              newline="", encoding="utf-8") as csv_user_data_file:
+        writer = csv.writer(csv_user_data_file, delimiter=";")
+        writer.writerow(["title", "link", "score"])
+        for i in range(len(user_info['items'])):
+            writer.writerow([user_info['items'][i]['title'],
+                             user_info['items'][i]['link'],
+                             user_info['items'][i]['score']])
+
+    # open your csv and read as a text string
+    with open(f"user{type}.csv", 'r') as csv_user_data_file:
+        csv_text = csv_user_data_file.read()
+        # substitute
+        new_csv_text = re.sub("&#39;", "\'",
+                              re.sub('\"', "",
+                                     re.sub(r"\\([\w]+)", r"\1", csv_text)))
+
+    # open file and save
+    with open(f"user{type}.csv", "w") as csv_user_data_file:
+        csv_user_data_file.write(new_csv_text)
 
 
-user_info_tex = request_for_questions(66024, 'tex')
-create_user_data_files(user_info_tex, 'tex')
+user_id_data = {66024: 'tex', 690: 'physics'}
+for user_id in user_id_data:
+    create_user_data_files(request_for_questions(user_id,
+                                                 user_id_data[user_id]),
+                           user_id_data[user_id])
