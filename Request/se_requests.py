@@ -36,17 +36,16 @@ def info_csv(se_site, se_method):
         "stackoverflow": 4908648,
     }
 
+    se_columns = {
+        'questions': ['link', 'title', 'score'],
+        'answers': ['answer_id', 'question_id', 'score'],
+        'posts': ['post_id', 'link', 'score']
+    }
+
     info = request_for_questions(user_id_data[se_site], se_site, se_method)
 
-    if se_method == 'questions':
-        info = info[['link', 'title', 'score']]
-    elif se_method == 'answers':
-        info = info[['answer_id', 'question_id', 'score']]
-    elif se_method == 'posts':
-        info = info[['post_id', 'link', 'score']]
-
     file_name = f'{se_site}_{se_method}.csv'
-    info.to_csv(file_name, index=False, sep=";")
+    info[se_columns[se_method]].to_csv(file_name, index=False, sep=";")
     clean_csv_for_LaTeX(file_name)
 
 
@@ -54,8 +53,8 @@ def clean_csv_for_LaTeX(file):
     """Clean file for LaTeX typesetting."""
 
     # open your csv and read as a text string
-    with open(file, "r") as csv_user_data_file:
-        csv_text = csv_user_data_file.read()
+    with open(file, "r") as csv_file:
+        csv_text = csv_file.read()
 
         # substitute
         new_csv_text = re.sub("&#39;", "'",
@@ -66,13 +65,13 @@ def clean_csv_for_LaTeX(file):
                               )
 
         # open file and save
-    with open(file, "w") as csv_user_data_file:
-        csv_user_data_file.write(new_csv_text)
+    with open(file, "w") as csv_file:
+        csv_file.write(new_csv_text)
 
 
 if __name__ == "__main__":
 
-    info_csv('physics', 'questions')
+    info_csv('tex', 'questions')
 
     # with open("user_tex_questions.json", "r") as info_dict_file:
     #     info_dict = json.load(info_dict_file)
