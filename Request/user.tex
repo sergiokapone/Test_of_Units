@@ -36,8 +36,9 @@
 \usepackage{booktabs}
 \usepackage{hyperref}
 \usepackage{longtable}
+\usepackage{tikz, pgf}
 
-\title{Sergio posts in \url{https://physics.stackexchange.com}}
+\title{Sergio posts}
 \date{}
 
 \begin{document}
@@ -45,7 +46,10 @@
 %\pgfplotstableset{create on use/No/.style
 %  = {create col/expr accum={\pgfmathaccuma+1}{0}}}
 
+\foreach \site in {physics, mathematics, tex, stackoverflow} {
+
 \begin{center}
+    \textbf{Posts in \url{https://\site.stackexchange.com}}
 	\pgfplotstabletypeset[%
     begin table=\begin{longtable},
     end table=\end{longtable},
@@ -76,7 +80,8 @@
                 column name = {Tiles of questions},
 				column type = {p{.9\textwidth}},
 			},
-	]{usertex.csv}
+	]{user_\site_questions.csv}
 \end{center}
+}
 
 \end{document}
