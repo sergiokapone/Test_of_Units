@@ -1,0 +1,852 @@
+{
+  "items": [
+    {
+      "tags": [
+        "electromagnetic-radiation",
+        "momentum",
+        "conservation-laws",
+        "atoms"
+      ],
+      "owner": {
+        "reputation": 2287,
+        "user_id": 690,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://i.stack.imgur.com/50TKF.jpg?s=128&g=1",
+        "display_name": "Sergio",
+        "link": "https://physics.stackexchange.com/users/690/sergio"
+      },
+      "is_answered": true,
+      "view_count": 978,
+      "accepted_answer_id": 498509,
+      "answer_count": 3,
+      "score": 8,
+      "last_activity_date": 1623035755,
+      "creation_date": 1566663637,
+      "last_edit_date": 1566668438,
+      "question_id": 498500,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://physics.stackexchange.com/questions/498500/does-an-atom-recoil-when-photon-radiate",
+      "title": "Does an atom recoil when photon radiate?"
+    },
+    {
+      "tags": [
+        "electromagnetism",
+        "special-relativity",
+        "gauge-theory",
+        "gauge-invariance"
+      ],
+      "owner": {
+        "reputation": 2287,
+        "user_id": 690,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://i.stack.imgur.com/50TKF.jpg?s=128&g=1",
+        "display_name": "Sergio",
+        "link": "https://physics.stackexchange.com/users/690/sergio"
+      },
+      "is_answered": true,
+      "view_count": 84,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1611058975,
+      "creation_date": 1610988716,
+      "last_edit_date": 1611058975,
+      "question_id": 608544,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://physics.stackexchange.com/questions/608544/how-local-gauge-invariance-explain-charge-conservation-and-electromagnetic-force",
+      "title": "How local gauge invariance explain charge conservation and electromagnetic force appearance?"
+    },
+    {
+      "tags": [
+        "general-relativity",
+        "lagrangian-formalism",
+        "variational-principle",
+        "action"
+      ],
+      "owner": {
+        "reputation": 2287,
+        "user_id": 690,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://i.stack.imgur.com/50TKF.jpg?s=128&g=1",
+        "display_name": "Sergio",
+        "link": "https://physics.stackexchange.com/users/690/sergio"
+      },
+      "is_answered": true,
+      "view_count": 58,
+      "accepted_answer_id": 591018,
+      "answer_count": 1,
+      "score": 1,
+      "last_activity_date": 1604239775,
+      "creation_date": 1604238045,
+      "last_edit_date": 1604239775,
+      "question_id": 591015,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://physics.stackexchange.com/questions/591015/vanishing-action-integral-for-gravitation-field",
+      "title": "Vanishing action integral for Gravitation Field"
+    },
+    {
+      "tags": [
+        "operators",
+        "hamiltonian-formalism",
+        "hamiltonian",
+        "time-evolution"
+      ],
+      "owner": {
+        "reputation": 2287,
+        "user_id": 690,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://i.stack.imgur.com/50TKF.jpg?s=128&g=1",
+        "display_name": "Sergio",
+        "link": "https://physics.stackexchange.com/users/690/sergio"
+      },
+      "is_answered": true,
+      "view_count": 62,
+      "accepted_answer_id": 566304,
+      "answer_count": 1,
+      "score": 1,
+      "last_activity_date": 1594981347,
+      "creation_date": 1594976999,
+      "last_edit_date": 1594980371,
+      "question_id": 566293,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://physics.stackexchange.com/questions/566293/generator-of-time-shift-in-classical-and-quantum-mechanics",
+      "title": "Generator of Time Shift in Classical and Quantum Mechanics"
+    },
+    {
+      "tags": [
+        "quantum-mechanics",
+        "classical-mechanics",
+        "hamiltonian-formalism",
+        "hamiltonian"
+      ],
+      "owner": {
+        "reputation": 2287,
+        "user_id": 690,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://i.stack.imgur.com/50TKF.jpg?s=128&g=1",
+        "display_name": "Sergio",
+        "link": "https://physics.stackexchange.com/users/690/sergio"
+      },
+      "is_answered": true,
+      "view_count": 72,
+      "answer_count": 1,
+      "score": 2,
+      "last_activity_date": 1594800110,
+      "creation_date": 1594762666,
+      "last_edit_date": 1594800110,
+      "question_id": 565803,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://physics.stackexchange.com/questions/565803/a-priori-properties-of-classical-hamiltonian-unitarity-in-classical-mechanics",
+      "title": "A priori properties of classical Hamiltonian (unitarity in Classical Mechanics)"
+    },
+    {
+      "tags": [
+        "electromagnetic-radiation",
+        "action"
+      ],
+      "owner": {
+        "reputation": 2287,
+        "user_id": 690,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://i.stack.imgur.com/50TKF.jpg?s=128&g=1",
+        "display_name": "Sergio",
+        "link": "https://physics.stackexchange.com/users/690/sergio"
+      },
+      "is_answered": false,
+      "view_count": 18,
+      "answer_count": 0,
+      "score": 1,
+      "last_activity_date": 1591681573,
+      "creation_date": 1591681261,
+      "last_edit_date": 1591681573,
+      "question_id": 558105,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://physics.stackexchange.com/questions/558105/radiation-reaction-force-on-particle-from-the-principle-of-least-action",
+      "title": "Radiation Reaction Force on particle from the principle of least action"
+    },
+    {
+      "tags": [
+        "electrostatics"
+      ],
+      "owner": {
+        "reputation": 2287,
+        "user_id": 690,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://i.stack.imgur.com/50TKF.jpg?s=128&g=1",
+        "display_name": "Sergio",
+        "link": "https://physics.stackexchange.com/users/690/sergio"
+      },
+      "is_answered": true,
+      "view_count": 221,
+      "answer_count": 1,
+      "score": 3,
+      "last_activity_date": 1587117441,
+      "creation_date": 1587106991,
+      "question_id": 544525,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://physics.stackexchange.com/questions/544525/potential-of-an-infinite-charged-plate-poissons-or-laplaces-equation",
+      "title": "Potential of an infinite charged plate: Poisson&#39;s or Laplace&#39;s equation?"
+    },
+    {
+      "tags": [
+        "quantum-mechanics",
+        "operators",
+        "hilbert-space"
+      ],
+      "owner": {
+        "reputation": 2287,
+        "user_id": 690,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://i.stack.imgur.com/50TKF.jpg?s=128&g=1",
+        "display_name": "Sergio",
+        "link": "https://physics.stackexchange.com/users/690/sergio"
+      },
+      "is_answered": true,
+      "view_count": 143,
+      "answer_count": 2,
+      "score": 3,
+      "last_activity_date": 1586904848,
+      "creation_date": 1544374818,
+      "last_edit_date": 1544376298,
+      "question_id": 446185,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://physics.stackexchange.com/questions/446185/what-is-physical-meaning-of-state-getting-by-acting-of-hermitian-operator-to-non",
+      "title": "What is physical meaning of state getting by acting of Hermitian operator to non-eigenstate?"
+    },
+    {
+      "tags": [
+        "black-holes",
+        "dark-matter",
+        "hawking-radiation",
+        "absorption"
+      ],
+      "owner": {
+        "reputation": 2287,
+        "user_id": 690,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://i.stack.imgur.com/50TKF.jpg?s=128&g=1",
+        "display_name": "Sergio",
+        "link": "https://physics.stackexchange.com/users/690/sergio"
+      },
+      "is_answered": true,
+      "view_count": 937,
+      "accepted_answer_id": 509532,
+      "answer_count": 2,
+      "score": 10,
+      "last_activity_date": 1571794601,
+      "creation_date": 1571738462,
+      "last_edit_date": 1571794601,
+      "question_id": 509503,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://physics.stackexchange.com/questions/509503/absorption-of-dark-matter-by-black-holes",
+      "title": "Absorption of dark matter by black holes"
+    },
+    {
+      "tags": [
+        "general-relativity",
+        "maxwell-equations",
+        "gauge-invariance"
+      ],
+      "owner": {
+        "reputation": 2287,
+        "user_id": 690,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://i.stack.imgur.com/50TKF.jpg?s=128&g=1",
+        "display_name": "Sergio",
+        "link": "https://physics.stackexchange.com/users/690/sergio"
+      },
+      "is_answered": true,
+      "view_count": 423,
+      "accepted_answer_id": 450147,
+      "answer_count": 2,
+      "score": 5,
+      "last_activity_date": 1570357462,
+      "creation_date": 1545635403,
+      "last_edit_date": 1570357462,
+      "question_id": 450139,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://physics.stackexchange.com/questions/450139/comparison-of-covariant-form-of-maxwell-equations-with-einsteins-gr",
+      "title": "Comparison of covariant form of Maxwell equations with Einstein&#39;s GR"
+    },
+    {
+      "tags": [
+        "visible-light",
+        "reflection",
+        "laser"
+      ],
+      "owner": {
+        "reputation": 2287,
+        "user_id": 690,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://i.stack.imgur.com/50TKF.jpg?s=128&g=1",
+        "display_name": "Sergio",
+        "link": "https://physics.stackexchange.com/users/690/sergio"
+      },
+      "is_answered": true,
+      "view_count": 182,
+      "accepted_answer_id": 506356,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1570199108,
+      "creation_date": 1570196542,
+      "last_edit_date": 1570197119,
+      "question_id": 506352,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://physics.stackexchange.com/questions/506352/why-do-objects-reflect-laser-light",
+      "title": "Why do objects reflect laser light?"
+    },
+    {
+      "tags": [
+        "general-relativity",
+        "stress-energy-momentum-tensor",
+        "geodesics"
+      ],
+      "owner": {
+        "reputation": 2287,
+        "user_id": 690,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://i.stack.imgur.com/50TKF.jpg?s=128&g=1",
+        "display_name": "Sergio",
+        "link": "https://physics.stackexchange.com/users/690/sergio"
+      },
+      "is_answered": true,
+      "view_count": 276,
+      "accepted_answer_id": 484225,
+      "answer_count": 2,
+      "score": 1,
+      "last_activity_date": 1559642657,
+      "creation_date": 1559505246,
+      "last_edit_date": 1559508211,
+      "question_id": 483923,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://physics.stackexchange.com/questions/483923/some-aspect-of-covariant-derivative-of-point-particle-energy-momentum-tensor",
+      "title": "Some aspect of covariant derivative of point particle energy-momentum tensor"
+    },
+    {
+      "tags": [
+        "grand-unification",
+        "unified-theories"
+      ],
+      "owner": {
+        "reputation": 2287,
+        "user_id": 690,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://i.stack.imgur.com/50TKF.jpg?s=128&g=1",
+        "display_name": "Sergio",
+        "link": "https://physics.stackexchange.com/users/690/sergio"
+      },
+      "is_answered": false,
+      "view_count": 17,
+      "answer_count": 0,
+      "score": 1,
+      "last_activity_date": 1556878326,
+      "creation_date": 1556877473,
+      "last_edit_date": 1556878326,
+      "question_id": 477569,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://physics.stackexchange.com/questions/477569/interaction-range-of-fundamental-forces-at-a-unification-energies",
+      "title": "Interaction range of fundamental forces at a unification energies"
+    },
+    {
+      "tags": [
+        "general-relativity",
+        "electromagnetic-radiation",
+        "reference-frames",
+        "acceleration",
+        "charge"
+      ],
+      "owner": {
+        "reputation": 2287,
+        "user_id": 690,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://i.stack.imgur.com/50TKF.jpg?s=128&g=1",
+        "display_name": "Sergio",
+        "link": "https://physics.stackexchange.com/users/690/sergio"
+      },
+      "is_answered": true,
+      "view_count": 8141,
+      "accepted_answer_id": 22459,
+      "answer_count": 7,
+      "score": 67,
+      "last_activity_date": 1555798582,
+      "creation_date": 1330844182,
+      "last_edit_date": 1541699371,
+      "question_id": 21830,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://physics.stackexchange.com/questions/21830/does-a-charged-particle-accelerating-in-a-gravitational-field-radiate",
+      "title": "Does a charged particle accelerating in a gravitational field radiate?"
+    },
+    {
+      "tags": [
+        "angular-momentum",
+        "orbitals",
+        "quantum-chemistry"
+      ],
+      "owner": {
+        "reputation": 2287,
+        "user_id": 690,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://i.stack.imgur.com/50TKF.jpg?s=128&g=1",
+        "display_name": "Sergio",
+        "link": "https://physics.stackexchange.com/users/690/sergio"
+      },
+      "is_answered": true,
+      "view_count": 261,
+      "answer_count": 1,
+      "score": 3,
+      "last_activity_date": 1551096944,
+      "creation_date": 1519316335,
+      "last_edit_date": 1519321092,
+      "question_id": 387997,
+      "content_license": "CC BY-SA 3.0",
+      "link": "https://physics.stackexchange.com/questions/387997/pi-bond-angular-momentum",
+      "title": "Pi-bond angular momentum"
+    },
+    {
+      "tags": [
+        "quantum-mechanics",
+        "hilbert-space",
+        "measurement-problem",
+        "wavefunction-collapse"
+      ],
+      "owner": {
+        "reputation": 2287,
+        "user_id": 690,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://i.stack.imgur.com/50TKF.jpg?s=128&g=1",
+        "display_name": "Sergio",
+        "link": "https://physics.stackexchange.com/users/690/sergio"
+      },
+      "is_answered": true,
+      "view_count": 112,
+      "answer_count": 1,
+      "score": 2,
+      "last_activity_date": 1544365323,
+      "creation_date": 1544354154,
+      "last_edit_date": 1544365323,
+      "question_id": 446144,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://physics.stackexchange.com/questions/446144/does-the-hermitian-operator-reduce-the-non-eigenstate-state-to-the-self-eigensta",
+      "title": "Does the Hermitian Operator Reduce the Non-eigenstate State to the Self-Eigenstate?"
+    },
+    {
+      "tags": [
+        "general-relativity",
+        "differential-geometry",
+        "metric-tensor",
+        "velocity"
+      ],
+      "owner": {
+        "reputation": 2287,
+        "user_id": 690,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://i.stack.imgur.com/50TKF.jpg?s=128&g=1",
+        "display_name": "Sergio",
+        "link": "https://physics.stackexchange.com/users/690/sergio"
+      },
+      "is_answered": true,
+      "view_count": 794,
+      "accepted_answer_id": 363604,
+      "answer_count": 2,
+      "score": 9,
+      "last_activity_date": 1523943345,
+      "creation_date": 1508264211,
+      "last_edit_date": 1509999034,
+      "question_id": 363452,
+      "content_license": "CC BY-SA 3.0",
+      "link": "https://physics.stackexchange.com/questions/363452/how-do-we-measure-the-velocity-in-curved-space-time",
+      "title": "How do we measure the velocity in curved space-time?"
+    },
+    {
+      "tags": [
+        "general-relativity",
+        "forces",
+        "metric-tensor",
+        "geodesics"
+      ],
+      "owner": {
+        "reputation": 2287,
+        "user_id": 690,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://i.stack.imgur.com/50TKF.jpg?s=128&g=1",
+        "display_name": "Sergio",
+        "link": "https://physics.stackexchange.com/users/690/sergio"
+      },
+      "is_answered": true,
+      "view_count": 187,
+      "accepted_answer_id": 398271,
+      "answer_count": 2,
+      "score": 1,
+      "last_activity_date": 1523111877,
+      "creation_date": 1523080624,
+      "last_edit_date": 1523107964,
+      "question_id": 398249,
+      "content_license": "CC BY-SA 3.0",
+      "link": "https://physics.stackexchange.com/questions/398249/gravity-without-force-of-gravity-what-does-it-mean",
+      "title": "Gravity without force of gravity. What does it mean?"
+    },
+    {
+      "tags": [
+        "wavefunction",
+        "hydrogen",
+        "quantum-chemistry"
+      ],
+      "owner": {
+        "reputation": 2287,
+        "user_id": 690,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://i.stack.imgur.com/50TKF.jpg?s=128&g=1",
+        "display_name": "Sergio",
+        "link": "https://physics.stackexchange.com/users/690/sergio"
+      },
+      "is_answered": true,
+      "view_count": 289,
+      "accepted_answer_id": 387798,
+      "answer_count": 1,
+      "score": 2,
+      "last_activity_date": 1519291125,
+      "creation_date": 1519198870,
+      "last_edit_date": 1519234592,
+      "question_id": 387723,
+      "content_license": "CC BY-SA 3.0",
+      "link": "https://physics.stackexchange.com/questions/387723/shape-of-hydrogen-atom-in-excited-state-with-nonzeros-angular-momentum",
+      "title": "Shape of Hydrogen atom in excited state with nonzeros angular momentum"
+    },
+    {
+      "tags": [
+        "cosmology",
+        "energy-conservation",
+        "universe",
+        "space-expansion",
+        "cosmological-inflation"
+      ],
+      "owner": {
+        "reputation": 2287,
+        "user_id": 690,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://i.stack.imgur.com/50TKF.jpg?s=128&g=1",
+        "display_name": "Sergio",
+        "link": "https://physics.stackexchange.com/users/690/sergio"
+      },
+      "is_answered": true,
+      "view_count": 231,
+      "answer_count": 1,
+      "score": 1,
+      "last_activity_date": 1517481662,
+      "creation_date": 1517234155,
+      "last_edit_date": 1517260032,
+      "question_id": 383013,
+      "content_license": "CC BY-SA 3.0",
+      "link": "https://physics.stackexchange.com/questions/383013/does-energy-conserve-in-de-sitter-universe",
+      "title": "Does energy conserve in de Sitter Universe?"
+    },
+    {
+      "tags": [
+        "general-relativity",
+        "energy-conservation",
+        "stress-energy-momentum-tensor",
+        "dark-energy"
+      ],
+      "owner": {
+        "reputation": 2287,
+        "user_id": 690,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://i.stack.imgur.com/50TKF.jpg?s=128&g=1",
+        "display_name": "Sergio",
+        "link": "https://physics.stackexchange.com/users/690/sergio"
+      },
+      "is_answered": false,
+      "view_count": 111,
+      "answer_count": 0,
+      "score": 1,
+      "last_activity_date": 1517308127,
+      "creation_date": 1517303153,
+      "last_edit_date": 1517308127,
+      "question_id": 383180,
+      "content_license": "CC BY-SA 3.0",
+      "link": "https://physics.stackexchange.com/questions/383180/stress-energy-pseudotensor-of-gravitation-field-for-dark-energy",
+      "title": "Stress–energy pseudotensor of gravitation field for Dark energy"
+    },
+    {
+      "tags": [
+        "homework-and-exercises",
+        "electrostatics",
+        "electric-fields",
+        "vector-fields",
+        "dielectric"
+      ],
+      "owner": {
+        "reputation": 2287,
+        "user_id": 690,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://i.stack.imgur.com/50TKF.jpg?s=128&g=1",
+        "display_name": "Sergio",
+        "link": "https://physics.stackexchange.com/users/690/sergio"
+      },
+      "is_answered": false,
+      "view_count": 79,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1513241497,
+      "creation_date": 1513239132,
+      "last_edit_date": 1513241497,
+      "question_id": 374352,
+      "content_license": "CC BY-SA 3.0",
+      "link": "https://physics.stackexchange.com/questions/374352/electric-field-lines-of-dielectric-sphere-in-uniform-field",
+      "title": "Electric field lines of dielectric sphere in uniform field"
+    },
+    {
+      "tags": [
+        "general-relativity",
+        "forces",
+        "vectors"
+      ],
+      "owner": {
+        "reputation": 2287,
+        "user_id": 690,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://i.stack.imgur.com/50TKF.jpg?s=128&g=1",
+        "display_name": "Sergio",
+        "link": "https://physics.stackexchange.com/users/690/sergio"
+      },
+      "is_answered": false,
+      "view_count": 206,
+      "answer_count": 0,
+      "score": 4,
+      "last_activity_date": 1508395952,
+      "creation_date": 1508002854,
+      "last_edit_date": 1508395952,
+      "question_id": 362824,
+      "content_license": "CC BY-SA 3.0",
+      "link": "https://physics.stackexchange.com/questions/362824/3-force-in-general-relativity",
+      "title": "3-force in General Relativity"
+    },
+    {
+      "tags": [
+        "general-relativity",
+        "cosmology",
+        "spacetime",
+        "metric-tensor",
+        "de-sitter-spacetime"
+      ],
+      "owner": {
+        "reputation": 2287,
+        "user_id": 690,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://i.stack.imgur.com/50TKF.jpg?s=128&g=1",
+        "display_name": "Sergio",
+        "link": "https://physics.stackexchange.com/users/690/sergio"
+      },
+      "is_answered": true,
+      "view_count": 1484,
+      "accepted_answer_id": 358207,
+      "answer_count": 2,
+      "score": 6,
+      "last_activity_date": 1505922217,
+      "creation_date": 1505887401,
+      "last_edit_date": 1505922217,
+      "question_id": 358202,
+      "content_license": "CC BY-SA 3.0",
+      "link": "https://physics.stackexchange.com/questions/358202/is-the-de-sitter-universe-static",
+      "title": "Is the de Sitter Universe static?"
+    },
+    {
+      "tags": [
+        "cosmology",
+        "spacetime",
+        "universe",
+        "de-sitter-spacetime"
+      ],
+      "owner": {
+        "reputation": 2287,
+        "user_id": 690,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://i.stack.imgur.com/50TKF.jpg?s=128&g=1",
+        "display_name": "Sergio",
+        "link": "https://physics.stackexchange.com/users/690/sergio"
+      },
+      "is_answered": true,
+      "view_count": 477,
+      "accepted_answer_id": 357877,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1505742327,
+      "creation_date": 1505732253,
+      "last_edit_date": 1505733910,
+      "question_id": 357858,
+      "content_license": "CC BY-SA 3.0",
+      "link": "https://physics.stackexchange.com/questions/357858/is-the-de-sitter-universe-equivalent-to-the-static-einstein-universe",
+      "title": "Is the de Sitter Universe equivalent to the static Einstein Universe?"
+    },
+    {
+      "tags": [
+        "gravity",
+        "black-holes",
+        "cherenkov-radiation"
+      ],
+      "owner": {
+        "reputation": 2287,
+        "user_id": 690,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://i.stack.imgur.com/50TKF.jpg?s=128&g=1",
+        "display_name": "Sergio",
+        "link": "https://physics.stackexchange.com/users/690/sergio"
+      },
+      "is_answered": false,
+      "view_count": 79,
+      "answer_count": 0,
+      "score": 1,
+      "last_activity_date": 1497815435,
+      "creation_date": 1497780978,
+      "last_edit_date": 1497815435,
+      "question_id": 340010,
+      "content_license": "CC BY-SA 3.0",
+      "link": "https://physics.stackexchange.com/questions/340010/cherenkov-radiation-in-schwarzschild-metrics",
+      "title": "Cherenkov radiation in Schwarzschild metrics"
+    },
+    {
+      "tags": [
+        "electromagnetism",
+        "special-relativity",
+        "maxwell-equations",
+        "lorentz-symmetry",
+        "magnetic-monopoles"
+      ],
+      "owner": {
+        "reputation": 2287,
+        "user_id": 690,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://i.stack.imgur.com/50TKF.jpg?s=128&g=1",
+        "display_name": "Sergio",
+        "link": "https://physics.stackexchange.com/users/690/sergio"
+      },
+      "is_answered": true,
+      "view_count": 2473,
+      "protected_date": 1474624555,
+      "accepted_answer_id": 22024,
+      "answer_count": 2,
+      "score": 13,
+      "last_activity_date": 1474624636,
+      "creation_date": 1331140378,
+      "last_edit_date": 1474624636,
+      "question_id": 22018,
+      "content_license": "CC BY-SA 3.0",
+      "link": "https://physics.stackexchange.com/questions/22018/does-existence-of-magnetic-monopole-break-covariant-form-of-maxwell-s-equations",
+      "title": "Does existence of magnetic monopole break covariant form of Maxwell’s equations for potentials?"
+    },
+    {
+      "tags": [
+        "electromagnetism",
+        "general-relativity",
+        "gauss-law",
+        "magnetic-monopoles",
+        "maxwell-equations"
+      ],
+      "owner": {
+        "reputation": 2287,
+        "user_id": 690,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://i.stack.imgur.com/50TKF.jpg?s=128&g=1",
+        "display_name": "Sergio",
+        "link": "https://physics.stackexchange.com/users/690/sergio"
+      },
+      "is_answered": true,
+      "view_count": 643,
+      "accepted_answer_id": 28892,
+      "answer_count": 1,
+      "score": 1,
+      "last_activity_date": 1474317355,
+      "creation_date": 1337854179,
+      "last_edit_date": 1337856181,
+      "question_id": 28891,
+      "content_license": "CC BY-SA 3.0",
+      "link": "https://physics.stackexchange.com/questions/28891/gravimagnetic-monopole-and-general-relativity",
+      "title": "Gravimagnetic monopole and General relativity"
+    },
+    {
+      "tags": [
+        "newtonian-mechanics",
+        "forces",
+        "rocket-science"
+      ],
+      "owner": {
+        "reputation": 2287,
+        "user_id": 690,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://i.stack.imgur.com/50TKF.jpg?s=128&g=1",
+        "display_name": "Sergio",
+        "link": "https://physics.stackexchange.com/users/690/sergio"
+      },
+      "is_answered": true,
+      "view_count": 312,
+      "accepted_answer_id": 158381,
+      "answer_count": 2,
+      "score": 3,
+      "last_activity_date": 1438072968,
+      "creation_date": 1420752646,
+      "last_edit_date": 1420755682,
+      "question_id": 158367,
+      "content_license": "CC BY-SA 3.0",
+      "link": "https://physics.stackexchange.com/questions/158367/does-the-outflowing-water-create-a-thrust-on-the-bucket",
+      "title": "Does the outflowing water create a thrust on the bucket?"
+    },
+    {
+      "tags": [
+        "general-relativity",
+        "resource-recommendations"
+      ],
+      "owner": {
+        "reputation": 2287,
+        "user_id": 690,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://i.stack.imgur.com/50TKF.jpg?s=128&g=1",
+        "display_name": "Sergio",
+        "link": "https://physics.stackexchange.com/users/690/sergio"
+      },
+      "is_answered": true,
+      "view_count": 2788,
+      "answer_count": 1,
+      "community_owned_date": 1393754370,
+      "score": 4,
+      "last_activity_date": 1409776795,
+      "creation_date": 1384893299,
+      "last_edit_date": 1489680202,
+      "question_id": 87122,
+      "content_license": "CC BY-SA 3.0",
+      "link": "https://physics.stackexchange.com/questions/87122/are-there-any-good-video-lectures-for-learning-general-relativity-at-the-level-o",
+      "title": "Are there any good video lectures for learning general relativity at the level of Hobson?"
+    }
+  ],
+  "has_more": true,
+  "quota_max": 10000,
+  "quota_remaining": 9995
+}

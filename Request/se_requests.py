@@ -6,7 +6,7 @@ import re
 
 
 # -----------------------------------------------------------------------------
-def request_for(user_id, se_site, se_method):
+def request_for_user(user_id, se_site, se_method):
     """Get request for SE and return pandas data frame dict."""
     se_url = f"https://api.stackexchange.com/2.2/users/{user_id}/{se_method}"
 
@@ -41,7 +41,7 @@ def info_csv(se_site, se_method):
         "posts": ["post_id", "link", "score"],
     }
 
-    info = request_for(user_id_data[se_site], se_site, se_method)
+    info = request_for_user(user_id_data[se_site], se_site, se_method)
 
     file_name = f"{se_site}_{se_method}.csv"
     info[se_columns[se_method]].to_csv(file_name, index=False, sep=";")
@@ -60,7 +60,7 @@ def clean_csv_for_LaTeX(file):
     replacements = [
         ("&#39;", "'"),
         ('"', ""),
-        (r"\\([\w]+)", r"\1"),
+        # (r"\\([\w]+)", r"\1"),
     ]
     for old, new in replacements:
         csv_text = re.sub(old, new, csv_text)
@@ -73,7 +73,7 @@ def clean_csv_for_LaTeX(file):
 # -----------------------------------------------------------------------------
 if __name__ == "__main__":
 
-    info_csv("physics", "questions")
+    info_csv("mathematics", "questions")
 
     # with open("user_tex_questions.json", "r") as info_dict_file:
     #     info_dict = json.load(info_dict_file)
